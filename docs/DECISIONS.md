@@ -14,8 +14,11 @@ Append-only. One line per decision, newest at the bottom. If you're about to pro
 | 2026-09-08 | Host on Cloudflare Pages; repo on GitHub | Free, branch previews, no non-commercial clause | GitHub Pages (no functions, clunkier domains), Vercel (free tier terms) |
 | 2026-09-08 | DNS moves to Cloudflare; domain stays at Namecheap | One dashboard for DNS/SSL/hosting; no transfer cost | CNAME-only at Namecheap |
 | 2026-09-08 | Astro + React islands + MDX + Tailwind v4 + Motion | Static, fast, reuses React diagram system | Next.js, GSAP/Lenis stack |
-| 2026-09-08 | Follow button → YouTube until a newsletter exists | A dead Subscribe is worse than none | Placeholder form |
 | 2026-09-08 | Videos page links out; no embedded players | Speed, no Google tracking, still counts views | Embeds |
 | 2026-09-08 | Tool pages (F7) are v1 scope | Cards without pages make the site a redirect layer | Cards → GitHub only |
-| 2026-09-08 | In-browser scanner demo (F15) parked to v1.1 | Highest-value differentiator, ~1 week of work | Ship in v1 |
+| 2026-09-08 | In-browser scanner demo parked to v1.1 | Highest-value differentiator, ~1 week of work | Ship in v1 |
 | 2026-09-08 | No light mode, ever | The design is black | Toggle |
+| 2026-09-08 | Brand is a config value in `src/data/site.ts`; never a string literal elsewhere; CI grep guard (F12) | @TheLLMArchitect is being retired; rebrand must be a one-file edit | Find-and-replace later |
+| 2026-09-08 | YouTube out of v1: no fetch, no Videos page, no key. F13 in v1.1 | Channel not ready; ship GitHub + writing first | Videos page with placeholder grid |
+| 2026-09-08 | Home row = latest article + latest GitHub release (was latest video); nav button → GitHub profile | Both come from data already fetched for F4; no dead links | Empty second card, "Subscribe" with no list |
+| 2026-09-08 | Build with sketch placeholders (`docs/PLACEHOLDERS.md`); real copy/links swapped in session 6 | Unblocks the build; one pass to replace | Waiting on content |
