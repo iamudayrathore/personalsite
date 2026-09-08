@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+
+# Build-time generated data (see docs/ARCHITECTURE.md #15, #16)
+src/data/*.generated.json
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
